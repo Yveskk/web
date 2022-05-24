@@ -3,9 +3,9 @@
         <tr>
             <th>Id</th>
             <th class="nosort">Avatar</th>
-            <th>Name</th>
+            <th>Nom</th>
             <th>Email</th>
-            <th>Created At</th>
+            <th>Créé à</th>
             <th class="nosort">&nbsp;</th>
         </tr>
     </thead>

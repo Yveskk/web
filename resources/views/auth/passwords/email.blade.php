@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sign Up | JSS Parking System - Admin Template</title>
+    <title>YVES-HEMBERT</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,8 +42,8 @@
                         <div class="logo-centered">
                             <a href="../index.html"><img src="../src/img/brand.svg" alt=""></a>
                         </div>
-                        <h3>Forgot Password</h3>
-                        <p>We will send you a link to reset password.</p>
+                        <h3>Mot de passe oublié</h3>
+                        <p>Nous vous enverrons un lien pour réinitialiser le mot de passe.</p>
                         <form method="POST" action="{{ route('password.email') }}">
                             @csrf
                             <div class="form-group">
@@ -57,12 +57,12 @@
                             </div>
                             <div class="sign-btn text-center">
                                 <button type="submit" class="btn btn-theme">
-                                    {{ __('Send Password Reset Link') }}
+                                    {{ __('Envoyer le lien de réinitialisation du mot de passe') }}
                                 </button>
                             </div>
                         </form>
                         <div class="register">
-                            <p>Not a member? <a href="{{ route('register') }}">Create an account</a></p>
+                            <p>Vous n’êtes pas membre? <a href="{{ route('register') }}">Créer un compte</a></p>
                         </div>
                     </div>
                 </div>

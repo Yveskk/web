@@ -7,8 +7,8 @@
             <div class="page-header-title">
                 <i class="ik ik-inbox bg-blue"></i>
                 <div class="d-inline">
-                    <h5>Data Table</h5>
-                    <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                    <h5>Tableau de données</h5>
+                    <span></span>
                 </div>
             </div>
         </div>
@@ -19,9 +19,9 @@
                         <a href="../index.html"><i class="ik ik-home"></i></a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Tables</a>
+                        <a href="#">Tableau</a>
                     </li>
-                    <li class="breadcrumb-item active" aria-current="page">Data Table</li>
+                    <li class="breadcrumb-item active" aria-current="page">Tableau de données</li>
                 </ol>
             </nav>
         </div>

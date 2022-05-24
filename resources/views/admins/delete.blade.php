@@ -10,13 +10,13 @@
         </div>
         <div class="modal-body">
                 <form id="delete-data" action="{{ route('user.destroy', $user->id) }}" method="POST" class="d-none">
-                    @method('Delete')
+                    @method('delete')
                     @csrf
-                    <label for="" class="text-center">Are you sure you want to delete this?</label>
+                    <label for="" class="text-center">Êtes-vous sûr de vouloir le supprimer ?</label>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-          <button type="submit" class="btn btn-danger">Yes Delete</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+          <button type="submit" class="btn btn-danger">Oui annuler</button>
         </div>
     </form>
       </div>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Sign Up | JSS Parking System - Admin Template</title>
+        <title>YVES-HEMBERT</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,8 +36,8 @@
                             <div class="logo-centered">
                                 <a href="../index.html"><img src="../src/img/brand.svg" alt=""></a>
                             </div>
-                            <h3>New to JSS Parking System</h3>
-                            <p>Join us today! It takes only few steps</p>
+                            <h3>Système de Stationnement YVES-HEMBERT</h3>
+                            <p>Veillez-vous enregistrer</p>
                             <form method="POST" action="{{ route('register') }}">
                                 @csrf
                                 <div class="form-group">
@@ -78,16 +78,16 @@
                                     <div class="col-12 text-left">
                                         <label class="custom-control custom-checkbox">
                                             <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option1">
-                                            <span class="custom-control-label">&nbsp;I Accept <a href="#">Terms and Conditions</a></span>
+                                            <span class="custom-control-label">&nbsp;J'accepte <a href="#">Termes et conditions</a></span>
                                         </label>
                                     </div>
                                 </div> --}}
                                 <div class="sign-btn text-center">
-                                    <button type="submit" class="btn btn-theme">{{ __('Create Account') }}</button>
+                                    <button type="submit" class="btn btn-theme">{{ __('Créer un compte') }}</button>
                                 </div>
                             </form>
                             <div class="register">
-                                <p>Already have an account? <a href="{{ route('login') }}">{{ __('Sign In') }}</a></p>
+                                <p>Vous avez déjà un compte ? <a href="{{ route('login') }}">{{ __('Connexion') }}</a></p>
                             </div>
                         </div>
                     </div>
